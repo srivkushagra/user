@@ -144,7 +144,7 @@
                     </security>
                 </datasource>
                 <datasource jndi-name="java:jboss/datasources/MySQLDS" pool-name="MySQLDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:mysql://10.1.69.14:3306/sampledb?useSSL=false</connection-url>
+                    <connection-url>jdbc:mysql://10.1.49.16:3306/sampledb?useSSL=false</connection-url>
                     <driver>mysql</driver>
                     <security>
                         <user-name>kushagra</user-name>
