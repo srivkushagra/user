@@ -21,7 +21,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Uzer implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -6655598906399853181L;
+
+	@Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     int id;
     
